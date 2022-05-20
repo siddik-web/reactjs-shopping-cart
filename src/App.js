@@ -1,19 +1,18 @@
 import React from 'react';
-import AddTodoForm from './components/AddTodoForm';
-import Ingredient from './components/Ingredient';
-import TodoList from './components/TodoList';
+
+import Product from './components/Product';
+
+import data from './data';
 
 function App() {
+  const {products} = data;
   return (
     <div className="container">
       <div className="row">
-        <div className="col">
-          <Ingredient/>
-        </div>
         <div className='col'>
-          <AddTodoForm/>
-          <TodoList/>
+          <Product products={products}/>
         </div>
+
       </div>
     </div>
   );

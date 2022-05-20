@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { uuid } from 'uuidv4'
 import Input from './Input'
 
 
@@ -15,7 +14,6 @@ export class Dress extends Component {
         }
        
     }
-    
 
     handleQuantityInput = (e) => {
         this.setState({quantity:e.target.value})

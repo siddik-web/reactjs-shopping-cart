@@ -44,7 +44,7 @@ export class Ingredient extends Component {
                     );
                 })}
 
-<              div style={{ marginTop: 20 }}>{JSON.stringify(this.state.ingredients)}</div>
+                <div style={{ marginTop: 20 }}>{JSON.stringify(this.state.ingredients)}</div>
                                
             </div>
         )
